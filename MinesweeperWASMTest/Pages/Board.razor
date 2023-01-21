@@ -1,0 +1,74 @@
+﻿<div>
+    <h1>@State</h1>
+    <div id="board">
+        @foreach (var cell in _cells)
+        {
+            <div 
+                class="cell @(cell.IsRevealed ? cell.GetTypeClass() : "") @cell.GetOtherClass()" 
+                onclick="@(() => CellClicked(cell.X, cell.Y))"
+                oncontextmenu="@(() => CellRightClicked(cell.X, cell.Y))"
+                @oncontextmenu:preventDefault="true">
+                @cell.GetCellText()
+            </div>
+        }
+    </div>
+</div>
+
+
+<style scoped>
+    #board {
+        display: grid;
+        grid-template-rows: repeat(@_rows, 50px);
+        grid-template-columns: repeat(@_columns, 50px);
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+    .cell {
+        border: 2px solid #ccc;
+        background: #ddd;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .zero {
+        background: #ccc;
+        border-color: #bbb;
+    }
+
+    .one {
+        color: blue;
+    }
+
+    .two {
+        color: green;
+    }
+
+    .three {
+        color: red;
+    }
+
+    .four {
+        color: darkblue;
+    }
+
+    .five {
+        color: darkred;
+    }
+
+    .six {
+        color: darkcyan;
+    }
+
+    .seven {
+        color: black;
+    }
+
+    .eight {
+        color: darkgray;
+    }
+</style>
