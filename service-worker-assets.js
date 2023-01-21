@@ -33,15 +33,15 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-haH5Bq+HqQ6kSWLR+bG2\/PmedFnSaU\/HEJ7ySBz3n\/M=",
+      "hash": "sha256-lzouGkCTKVhxXVU0\/nv5Nj\/slJrAvk39UUMmTSmFNoQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
-      "hash": "sha256-kVm8f6uYfK078KINo1rlc1LpOs24ZlJQL2ALjwG5P90=",
+      "hash": "sha256-UFtMkHjbIqdJBGdy1LV5tufdHiqVWoWGDMKp8hKaQnk=",
       "url": "_framework\/Microsoft.AspNetCore.Components.dll"
     },
     {
-      "hash": "sha256-+B+Dw0exFpLLKnjfJM4i3\/oCk0S9vAPAWW4+uwMs5h8=",
+      "hash": "sha256-iGoCGjPsg0mb3tNUkegc4y6mEOWAPnziLOXe1bFbKBA=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.dll"
     },
     {
@@ -93,7 +93,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-bXD2u2kvPFmZ4Fh\/5k3JJoLmtsQZuIGpIy+x11P845Y=",
+      "hash": "sha256-gRv7sTUivR9vIRyABsfodxtowARouzKjSnMN6sBza\/8=",
       "url": "_framework\/MinesweeperWASMTest.dll"
     },
     {
@@ -125,7 +125,7 @@
       "url": "_framework\/System.Net.Primitives.dll"
     },
     {
-      "hash": "sha256-1dM+WhNyLItUnP9bcPYydU3zjHIJuRrkXY9GkzPC\/fk=",
+      "hash": "sha256-VpVrKysbyuXHzJTlKY9KAmN3X1XjVP3f7qE1asDfxFA=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
@@ -133,7 +133,7 @@
       "url": "_framework\/System.Private.Uri.dll"
     },
     {
-      "hash": "sha256-ZvMfMJewvMkxseLv\/7jTN\/QsmY8wiP\/8zTXoiuvXYcA=",
+      "hash": "sha256-lOy+KKJmiBPbYsTdeY6vZ70tHiJo22Hb20a19cmPRd0=",
       "url": "_framework\/System.Runtime.dll"
     },
     {
@@ -153,7 +153,7 @@
       "url": "404.html"
     },
     {
-      "hash": "sha256-zWP9tJvt8oRgpCJ8UFwaXnifzgqVMA395+rHRCKAAQU=",
+      "hash": "sha256-akT25SEB5VnnOLZenTmkYj11OLXkFjRoTzvwKys1Gj0=",
       "url": "css\/app.css"
     },
     {
@@ -169,5 +169,5 @@
       "url": "manifest.json"
     }
   ],
-  "version": "YIcdt22\/"
+  "version": "cMo63pfr"
 };
